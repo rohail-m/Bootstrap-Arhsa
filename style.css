@@ -7,13 +7,17 @@
   --main-color: #37517e;
   --info: #0dcaf0;
 }
+.bg-blue {
+  background-color: #37517e;
+}
 
-.main-color {
-  color: var(--main-color);
+.main-color,
+.text-blue {
+  color: var(--main-color) !important;
 }
 
 .nav-container {
-  background-color: var(--main-color);
+  background-color: var(--main-color) !important;
 }
 
 .nav-container a {
