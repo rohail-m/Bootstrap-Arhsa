@@ -51,6 +51,24 @@
   transform: translate(-50%, -50%);
 }
 
+.service-cards,
+.work-process-card-image,
+.work-process-card-body {
+  transition: 0.3s all;
+}
+
+.service-cards:hover {
+  transform: translateY(-15px);
+}
+
+.work-process-card-image:hover {
+  transform: scale(1.1);
+}
+
+.work-process-card-body:hover {
+  transform: translateY(-15px);
+}
+
 @keyframes move {
   from {
     transform: translateY(1);
