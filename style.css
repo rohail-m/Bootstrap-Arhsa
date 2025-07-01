@@ -58,16 +58,37 @@
   transition: 0.3s all;
 }
 
-.service-cards:hover {
+/* .service-cards:hover {
   transform: translateY(-15px);
+} */
+
+.word-process-card {
+  overflow: hidden;
 }
 
-.work-process-card-image:hover {
-  transform: scale(1.1);
+.word-process-card:hover img {
+  scale: 1.2;
 }
 
-.work-process-card-body:hover {
+.word-process-card:hover .work-process-card-body {
+  transform: translateY(-8px);
+}
+/* .work-process-card-image:hover {
+  scale: 1.2;
+} */
+
+/* .work-process-card-body:hover {
   transform: translateY(-15px);
+} */
+
+.call-to-action {
+  background: linear-gradient(
+      to right,
+      rgba(55, 81, 126, 0.6),
+      rgba(55, 81, 126, 0.9)
+    ),
+    url("https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp")
+      fixed;
 }
 
 .potfolio-list li:hover {
