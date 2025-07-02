@@ -94,6 +94,7 @@
 .potfolio-list li:hover {
   background-color: #0dcaf0;
   cursor: pointer;
+  color: white;
 }
 
 @keyframes move {
