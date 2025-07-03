@@ -97,6 +97,29 @@
   color: white;
 }
 
+.team-gray-line {
+  width: 20%;
+  background-color: lightgrey;
+  height: 1px;
+  /* margin-bottom: 10%; */
+}
+
+.team-cards {
+  transition: all 0.3s;
+}
+
+.team-cards:hover {
+  transform: translateY(-10px);
+}
+
+.bi-twitter-x:hover,
+.bi-facebook:hover,
+.bi-instagram:hover,
+.bi-linkedin:hover {
+  color: white !important;
+  background-color: #0dcaf0 !important;
+}
+
 @keyframes move {
   from {
     transform: translateY(1);
