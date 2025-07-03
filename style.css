@@ -120,6 +120,15 @@
   background-color: #0dcaf0 !important;
 }
 
+.buy-now {
+  transition: all 0.3s ease;
+}
+
+.buy-now:hover {
+  background-color: #0dcaf0 !important;
+  color: white !important;
+}
+
 @keyframes move {
   from {
     transform: translateY(1);
