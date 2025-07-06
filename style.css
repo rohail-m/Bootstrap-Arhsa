@@ -6,9 +6,14 @@
 :root {
   --main-color: #37517e;
   --info: #0dcaf0;
+  --fluid-bg-color: #f8f8f8;
 }
 .bg-blue {
   background-color: #37517e;
+}
+
+.bg-light-gray {
+  background-color: var(--fluid-bg-color) !important;
 }
 
 .main-color,
@@ -129,6 +134,19 @@
   color: white !important;
 }
 
+.subscribe-email-bar {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.subscribe-btn {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
 @keyframes move {
   from {
     transform: translateY(1);
